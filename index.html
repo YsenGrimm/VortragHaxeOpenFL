@@ -35,18 +35,39 @@
 
             <div class="slides">
 
-                <% _.forEach(slides, function(slide) { %>
-                    <% if (!_.isArray(slide)) { %>
-                        <%= section(slide) %>
-                    <% } %>
-                    <% if (_.isArray(slide)) { %>
-                        <section>
-                            <% _.forEach(slide, function(verticalslide) { %>
-                                <%= section(verticalslide) %>
-                            <% }); %>
-                        </section>
-                    <% } %>
-                <% }); %>
+                
+                    
+                        
+    <section data-markdown="slides/hello.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/code.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/haxe.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/haecks.md"></section>
+
+
+                    
+                    
+                
             </div>
 
         </div>

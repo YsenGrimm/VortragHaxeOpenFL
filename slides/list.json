@@ -1,1 +1,6 @@
-["index.md"]
+[
+    "hello.md",
+    "code.html",
+    "haxe.md",
+    "haecks.md"
+]
