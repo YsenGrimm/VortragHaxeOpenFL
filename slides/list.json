@@ -1,6 +1,12 @@
 [
     "hello.md",
-    "code.html",
     "haxe.md",
-    "haecks.md"
+    "haecks.md",
+    "was-ist-haxe-eigentlich.md",
+    "multiplatform-genauer.md",
+    "demo.md",
+    "unterschiede-zu-java.md",
+    "schleifen.html",
+    "typinferenz.html",
+    "enums.html"
 ]
