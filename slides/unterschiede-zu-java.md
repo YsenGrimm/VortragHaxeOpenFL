@@ -3,6 +3,6 @@
 * Schleifen
 * Typinferenz
 * mächtige Enums
-* Properties
-* Makros
+* Packages und Module import
 * Conditional Compilation
+* *Makros*

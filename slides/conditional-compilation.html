@@ -1,0 +1,19 @@
+<h2>Conditional Compilation</h2>
+
+<pre><code data-trim>
+#if flash8
+#elseif flash
+#elseif js
+#elseif neko
+#else 
+    #error  // will display an error
+    #error "Custom error message" 
+#end
+
+#if (neko && mydebug)
+    // Only for "mydebug" mode on Neko, set with -D mydebug
+#end
+#if (flash || php)
+    // Code that works for either flash or PHP
+#end
+</code></pre>
