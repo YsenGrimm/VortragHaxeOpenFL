@@ -1,4 +1,4 @@
-# Slides for the Game development with Haxe / OpenFL talk
+# Slides for the "Game development with Haxe / OpenFL" talk
 
 ### How to use
 
