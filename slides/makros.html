@@ -1,0 +1,14 @@
+<h2>Makros</h2>
+
+<pre><code data-trim>
+import haxe.macro.Expr;
+class Test {
+    @:macro public static function repeat(cond:Expr,e:Expr) : Expr {
+        return macro while( $cond ) trace($e);
+    }
+    static function main() {
+        var x = 0;
+        repeat(x < 10, x++);
+    }
+}
+</code></pre>
